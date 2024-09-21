@@ -5,7 +5,7 @@ This repo provides the PyTorch implementation of our paper in Medical Image Anal
 ![Our pipeline ](Figs/pipeline.png)
 
 ## Dataset
-We provide the samples of the processed I-SPY 1 dataset and the corresponding topological masks in `Sample_data.zip`. Please download the original I-SPY 1 dataset from their official [website](https://www.cancerimagingarchive.net/collection/ispy1/).
+We provide the samples of the processed I-SPY 1 dataset and the corresponding topological masks in `Sample_data.zip`. Please download the original I-SPY 1 dataset from their official [website](https://www.cancerimagingarchive.net/collection/ispy1/). All 3D inputs have been uninformed into `256*256*256`.
 
 ## Getting Started 
 The code has been verified on Python 3.8 with PyTorch 1.8.1. You can also install the required packages with:
@@ -27,8 +27,17 @@ Before running the program, here are a few parameters you might want to change:
 - continue_model: train from the saved checkpoint
 - model_step: if continue_model is True, specifiy the step you want to to continue training from
 - save_path: the path to put the pytorch log folder
-- data_path: path to your training folder 1
-- data_path2: path to your training folder 2
+- ori_path: path to your original MRIs (like the file structure in `Sample_data.zip`)
+- data_path: path to your topological masks belong to the 1-dimensional cubical complexes (like the file structure in `Sample_data.zip`)
+- data_path2: path to your topological masks belongs to the 2-dimensional cubical complexes (like the file structure in `Sample_data.zip`)
+- print_step: interval of steps you want to apply validation
+- save_step: interval of steps you want to save the checkpoints
 
+`Archpool.ipynb`/return_data_settings():
+- epochs: training epochs
+- batch_size: training batch size
+- extra_aug: whether add the extra augmented data from 'extra_path_xxx' in `return_settings()`
+- xfold: number of cross-validation folds
+- fold_idx: the specific fold in cross-validation
 
 Go to `Examples.ipynb` and hit run button.
