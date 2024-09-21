@@ -2,7 +2,7 @@
 
 ## Overview
 This repo provides the PyTorch implementation of our paper in Medical Image Analysis 2024. TopoTxR explicitly extracts multi-scale topological structures to better approximate breast parenchymal structures and then incorporates these structures into a deep-learning-based prediction model via an attention mechanism. Our topology-informed deep learning model, **TopoTxR**, leverages topology to provide enhanced insights into tissues critical for disease pathophysiology and treatment response. **TopoTxR** achieves **state-of-the-art performance** on the I-SPY 1 dataset for pCR prediction. 
-![The pipeline is shown as the following:](Figs/pipeline.png)
+[The pipeline is shown as the following:](Figs/pipeline.png)
 
 ## Dataset
 We provide the samples of the processed I-SPY 1 dataset and the corresponding topological masks. Please download the original I-SPY 1 dataset from their official [website](https://www.cancerimagingarchive.net/collection/ispy1/).
