@@ -22,7 +22,7 @@ conda env create -f environment.yml -n your_env_name
 ### Training and Validation ###
 Before running the program, here are a few parameters you might want to change:
 
-`Archpool.ipynb`/return_settings():
+`Archpool.ipynb/return_settings()`:
 - branch_name: the name of the pytorch log folder to put saved models
 - continue_model: train from the saved checkpoint
 - model_step: if continue_model is True, specifiy the step you want to to continue training from
@@ -33,7 +33,7 @@ Before running the program, here are a few parameters you might want to change:
 - print_step: interval of steps you want to apply validation
 - save_step: interval of steps you want to save the checkpoints
 
-`Archpool.ipynb`/return_data_settings():
+`Archpool.ipynb/return_data_settings()`:
 - epochs: training epochs
 - batch_size: training batch size
 - extra_aug: whether add the extra augmented data from 'extra_path_xxx' in `return_settings()`
