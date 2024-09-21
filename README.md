@@ -5,7 +5,7 @@ This repo provides the PyTorch implementation of our paper in Medical Image Anal
 ![Our pipeline ](Figs/pipeline.png)
 
 ## Dataset
-We provide the samples of the processed I-SPY 1 dataset and the corresponding topological masks. Please download the original I-SPY 1 dataset from their official [website](https://www.cancerimagingarchive.net/collection/ispy1/).
+We provide the samples of the processed I-SPY 1 dataset and the corresponding topological masks in `Sample_data.zip`. Please download the original I-SPY 1 dataset from their official [website](https://www.cancerimagingarchive.net/collection/ispy1/).
 
 ## Getting Started 
 The code has been verified on Python 3.8 with PyTorch 1.8.1. You can also install the required packages with:
