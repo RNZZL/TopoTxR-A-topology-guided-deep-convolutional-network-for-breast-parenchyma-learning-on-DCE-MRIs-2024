@@ -16,7 +16,7 @@ pip3 install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f ht
 or with our provided `environment.yml` as :
 
 ```bash
-conda env create -f environment.yml
+conda env create -f environment.yml -n your_env_name
 ```
 
 ### 1. Instructions ###
