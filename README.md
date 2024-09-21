@@ -8,6 +8,16 @@ This repo provides the PyTorch implementation of our paper in Medical Image Anal
 We provide the samples of the processed I-SPY 1 dataset and the corresponding topological masks. Please download the original I-SPY 1 dataset from their official [website](https://www.cancerimagingarchive.net/collection/ispy1/).
 
 ## Getting Started 
+The code has been verified on Python 3.8 with PyTorch 1.8.1. You can also install the required packages with:
+
+```bash
+pip3 install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+```
+or with our provided `environment.yml` as :
+
+```bash
+conda env create -f environment.yml
+```
 
 ### 1. Instructions ###
 Before running the program, here are a few parameters you might want to change:
