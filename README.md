@@ -41,4 +41,4 @@ Before running the program, here are a few parameters you might want to change:
 - xfold: number of cross-validation folds
 - fold_idx: the specific fold in cross-validation
 
-Go to `Examples.ipynb` and hit run button.
+Go to `Examples.ipynb` and hit run button. This file will run the code in `CNN_attention.ipynb` for cross-validation in one fold.
