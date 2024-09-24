@@ -20,7 +20,7 @@ or with our provided `environment.yml` as :
 conda env create -f environment.yml -n your_env_name
 ```
 
-### Training and Validation ###
+### Training and Validation parameters ###
 Before running the program, here are a few parameters you might want to change:
 
 `Archpool.ipynb/return_settings()`:
