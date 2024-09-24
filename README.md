@@ -41,8 +41,8 @@ Before running the program, here are a few parameters you might want to change:
 - xfold: number of cross-validation folds
 - fold_idx: the specific fold in cross-validation
 
-Cross-validation:
+###Cross-validation:###
 Go to `Examples.ipynb` and hit the run button. This code will initialize the object in `CNN_attention.ipynb/__init__()` and run the `CNN_attention.ipynb/train()` function for cross-validation in one fold.
 
-Test:
-If you want to run the test code, please go to `Examples_eval.ipynb` and hit the run button. This code will initialize the object in `CNN_attention.ipynb/__init__()` and run the `CNN_attention.ipynb/eval()` function for testing.
+###Test:###
+If you want to run the test code, please go to `Examples_eval.ipynb` and hit the run button. Before you start running the test code, you can go to `Archpool.ipynb/return_settings()` to set the 'model_step' and 'branch_name' to customize your checkpoints. This code will initialize the object in `CNN_attention.ipynb/__init__()` and run the `CNN_attention.ipynb/eval()` function for testing. 
