@@ -20,7 +20,7 @@ or with our provided `environment.yml` as :
 conda env create -f environment.yml -n your_env_name
 ```
 ### Persistent Homology computation ###
-The code for persistent homology computation can be found [here](https://github.com/scikit-tda/ripser.py).
+The code for persistent homology computation can be found [here](https://github.com/TopoXLab/PersistentHomologyComputation).
 
 ### Training and Validation parameters ###
 Before running the program, here are a few parameters you might want to change:
